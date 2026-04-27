@@ -1,8 +1,15 @@
 export const routes = {
+  dashboard: '/',
+  employees: '/employees',
+  profile: '/employees/:id',
+  payroll: '/payroll',
+  recruiting: '/recruiting',
+  settings: '/settings'
+};
+
+export const apiRoutes = {
   auth: '/api/auth',
-  employees: '/api/employees',
-  payroll: '/api/payroll',
-  crm: '/api/crm',
-  inventory: '/api/inventory',
-  helpdesk: '/api/helpdesk'
+  employeeData: '/api/employees',
+  payrollData: '/api/payroll',
+  talentData: '/api/recruiting'
 };
